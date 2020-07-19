@@ -1,0 +1,14 @@
+.form__inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1023px) {
+    .form__inner {
+        justify-content: center;
+    }
+}

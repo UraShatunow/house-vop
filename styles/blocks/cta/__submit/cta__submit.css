@@ -1,0 +1,32 @@
+.cta__submit {
+    background: #D4C17F;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height, or 169% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    }
+
+.cta__submit:focus {
+    background: #D4C17F;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height, or 169% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.cta__submit:hover {
+    background: rgba(212, 193, 127, 0.8);
+}

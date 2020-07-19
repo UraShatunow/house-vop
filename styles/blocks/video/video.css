@@ -1,0 +1,8 @@
+@import url('__inner/video__inner.css');
+@import url('__play-icon/video__play-icon.css');
+
+@media screen and (max-width: 630px) {
+    .video {
+        margin-top: 80px;
+    }
+}

@@ -1,0 +1,14 @@
+.footer__email-link {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+
+    color: #D4C17F;
+}
+
+.footer__email-link:hover {
+    opacity: 0.7;
+}

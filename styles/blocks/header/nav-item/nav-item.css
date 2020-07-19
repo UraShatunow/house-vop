@@ -1,0 +1,43 @@
+.nav-item {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    margin-right: 40px;
+    transition: 0.25s;
+    text-align: center;
+}
+
+.nav-item:hover {
+    color: #D4C17F;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .nav-item {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nav-item {
+        width: calc(100% / 3);
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .nav-item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+

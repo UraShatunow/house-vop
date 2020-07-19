@@ -1,0 +1,15 @@
+.intro__mouse {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .intro__mouse {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro__mouse {
+        transform: scale(0.7);
+    }
+}

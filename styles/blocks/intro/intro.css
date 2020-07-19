@@ -1,0 +1,23 @@
+@import url('__col/intro__col.css');
+@import url('__container/intro__container.css');
+@import url('__title/intro__title.css');
+@import url('__mouse/intro__mouse.css');
+@import url('__text/intro__text.css');
+@import url('__contacts/intro__contacts.css');
+
+.intro {
+    height: 800px;
+    background-image: url('../../../img/intro__bg.jpg');
+    background-position: center -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        height: 560px;
+    }   
+}

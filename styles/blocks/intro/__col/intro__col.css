@@ -1,0 +1,12 @@
+.intro__col {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+    .intro__col {
+        width: 95%;
+        text-align: center;
+        margin-top: 20px;
+    }
+}

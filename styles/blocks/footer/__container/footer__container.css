@@ -1,0 +1,19 @@
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 0;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1120px) {
+    .footer__container {
+        padding: 60px 20px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .footer__container {
+        padding: 30px 20px;
+    }
+}

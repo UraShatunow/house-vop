@@ -1,0 +1,13 @@
+@import url('__container/testimonials__container.css');
+@import url('__item/testimonials__item.css');
+@import url('__text/testimonials__text.css');
+
+.testimonials {
+    margin: 120px auto;
+}
+
+@media screen and (max-width: 425px) {
+    .testimonials {
+        margin: 60px auto;
+    }
+}

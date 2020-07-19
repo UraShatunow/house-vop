@@ -1,0 +1,21 @@
+@import url('_1/apartments__item_1.css');
+@import url('_2/apartments__item_2.css');
+@import url('_3/apartments__item_3.css');
+@import url('_4/apartments__item_4.css');
+
+.apartments__item {
+    width: 48%;
+    padding-bottom: 30%;
+    margin-bottom: 4%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .apartments__item {
+        width: 100%;
+        padding-bottom: 50%;
+    }   
+}

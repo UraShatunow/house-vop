@@ -1,0 +1,12 @@
+.footer__paragraph {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+    margin-bottom: 15px;
+}

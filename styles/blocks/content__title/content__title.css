@@ -1,0 +1,21 @@
+.content__title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+
+    /* accent */
+
+    color: #D4C17F;
+}
+
+@media screen and (max-width: 767px) {
+    .content__title {
+        width: 95%;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+}

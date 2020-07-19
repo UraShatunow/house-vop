@@ -1,0 +1,22 @@
+.testimonials__item {
+    text-align: center;
+    width: 20%;
+}
+
+@media screen and (max-width: 1023px) {
+    .testimonials__item {
+        width: 34%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .testimonials__item {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .testimonials__item:last-child {
+        margin-bottom: 0;
+    }
+}

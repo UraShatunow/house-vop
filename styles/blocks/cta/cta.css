@@ -1,0 +1,21 @@
+@import url('__container/cta__container.css');
+@import url('__form/cta__form.css');
+@import url('__form-item/cta__form-item.css');
+@import url('__inner/cta__inner.css');
+@import url('__paragraph/cta__paragraph.css');
+@import url('__submit/cta__submit.css');
+@import url('__text/cta__text.css');
+
+.cta {
+    background-image: url('../../../img/cta_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 560px;
+}
+
+@media screen and (max-width: 550px) {
+    .cta {
+        margin-top: 50px;
+    }
+}

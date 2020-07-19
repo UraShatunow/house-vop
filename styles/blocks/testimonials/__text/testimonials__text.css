@@ -1,0 +1,18 @@
+.testimonials__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 425px) {
+    .testimonials__text {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+}

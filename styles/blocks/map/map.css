@@ -1,0 +1,11 @@
+@import url('__inner/map__inner.css');
+
+.map {
+    margin-top: 180px;
+}
+
+@media screen and (max-width: 425px) {
+    .map {
+        margin-top: 80px;
+    }
+}

@@ -1,0 +1,16 @@
+@import url('__inner/form__inner.css');
+@import url('__item/form__item.css');
+@import url('__paragraph/form__paragraph.css');
+@import url('__submit/form__submit.css');
+
+.form {
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+@media screen and (max-width: 425px) {
+    .form {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}

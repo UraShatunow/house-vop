@@ -1,0 +1,14 @@
+.intro__text {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 18px;
+}
+
+@media screen and (max-width: 425px) {
+    .intro__text {
+        font-size: 14px;
+    }
+}

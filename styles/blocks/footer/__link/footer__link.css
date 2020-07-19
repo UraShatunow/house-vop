@@ -1,0 +1,21 @@
+.footer__link {
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+    margin-top: 15px;
+}
+
+.footer__link:first-child {
+    margin-top: 0;
+}
+
+.footer__link:hover {
+    color: #D4C17F;
+}

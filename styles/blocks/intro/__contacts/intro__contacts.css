@@ -1,0 +1,28 @@
+.intro__contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 150px;
+    position: absolute;
+    bottom: 75px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__contacts {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__contacts {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .intro__contacts {
+        width: 95%;
+    }
+}
+
